@@ -1,5 +1,6 @@
-const readline = require('node:readline');
-const { stdin: input, stdout: output } = require('node:process');
+#!/usr/bin/env node
+const readline = require('readline');
+const { stdin: input, stdout: output } = require('process');
 
 const rl = readline.createInterface({input, output});
 

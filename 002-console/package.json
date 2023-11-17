@@ -1,8 +1,12 @@
 {
-  "name": "002-console",
-  "version": "1.0.0",
+  "name": "utility-homeworks-stasikrus",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
+  "bin": {
+    "date-utility": "./dateUtility.js",
+    "guess-number": "./guessTheNumber.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
